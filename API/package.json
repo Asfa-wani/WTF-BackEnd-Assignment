@@ -1,0 +1,31 @@
+{
+    "name": "WTF-Assignment",
+    "version": "1.0.0",
+    "description": "WTF-Backend-Assignment",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "jwt",
+        "sequelize",
+        "express",
+        "postgres"
+    ],
+    "author": "Asfa Wani",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.20.0",
+        "cors": "^2.8.5",
+        "express": "^4.18.1",
+        "joi": "^17.6.0",
+        "joi-password-complexity": "^5.1.0",
+        "jsonwebtoken": "^8.5.1",
+        "nodemon": "^2.0.19",
+        "pg": "^8.7.3",
+        "pg-hstore": "^2.3.4",
+        "sequelize": "^6.21.3"
+    }
+}
